@@ -1,0 +1,15 @@
+:root{
+   --sp-dark: #1A4E69;
+   --sp-light: #02B18E;  
+   --sp-green: #79D20C; 
+   --sp-red: #d20c0c;      
+   --snowy: #fafafa;
+   --black: #0d1317;
+   --sp-gray: #b3b3b3;
+   --sp-light-gray: #EAE9EC;
+   --light-tint: rgba(0,0,0,0.25);
+   --dark-tint: rgba(0,0,0,.75);
+   --in-focus: #039be5;  
+   --orange: orange;
+   --back-url: url("../../media/system/background.png");       
+}

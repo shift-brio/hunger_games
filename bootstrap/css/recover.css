@@ -1,0 +1,130 @@
+html{
+   background: var(--back-url);
+   height: 100%;
+   width: 100%;         
+}
+body, .container, .row{
+   height: 100%;
+   width: 100%;    
+   margin: 0 !important;   
+}
+.v-body{
+   height: 100%; 
+   padding-top: 15vh !important;       
+}
+.center{
+   text-align: center;
+}
+.r-head{
+   font-weight: 400;
+   font-size: 2em;
+   color: var(--sp-dark);
+   font-family: lato, sans-serif;
+}
+.r-box{
+   margin-top: 15vh;
+   max-height: 50vh;
+   height: auto;
+   padding-bottom: 30px;
+   background: var(--snowy);
+   border-radius: 8px;
+   box-shadow: 0 0 4px 0px var(--light-tint);
+   padding-top: 6px;
+}
+.sign-input{      
+   height: 34px;
+   background: #fff;
+   border: 1px solid var(--sp-dark); 
+   font-size: 1.1em; 
+   width: calc(100% - 100px);
+   margin-left: 50px; 
+   color: #000;
+   outline: none !important;
+   padding: 3px !important;
+   transition: box-shadow .15s ease-out, border .25s ease-out;
+   border-radius: 3px;
+}
+.sign-input:focus{
+   border: 2px solid var(--in-focus) !important;
+   transition: border .3s;
+   color: #000;
+   background: #fff !important;
+   box-shadow: 0px 0px 4px var(--in-focus) !important;
+}
+.sign-label{
+   font-size: 1.5em; 
+   font-weight: 350;   
+   color: var(--sp-dark);   
+   display: inline-flex;
+   margin-bottom: 10px;
+   margin-left: 50px;
+   padding-left: 2px !important;
+}
+.in-group{     
+   margin-top: 35px;
+}
+.right{
+   float: right;
+}
+.t-right{
+   text-align: right;
+}
+.r-btn{
+   margin-top: 30px;
+   border: 1px solid var(--sp-dark);
+   background-color: var(--sp-dark);
+   color: #fff;
+   padding: 5px 12px;
+   margin-right: 20px;
+   border-radius: 5px;
+   transition: background .25s ease;
+   font-weight: 500;
+}
+.r-loader{                  
+   margin-right: 10px;
+   margin-top: 30px;  
+   display: none;       
+}
+.r-tools{
+   text-align: center;
+   height: 50px;
+}
+.r-footer{
+   position: fixed;
+   top: 0;
+   height: 50px;
+   width: 100%;
+   z-index: 1400;
+   background-color: var(--snowy);         
+   
+   box-shadow: 0px -1px 5px var(--light-tint);
+}
+.foot-back{
+   flex: .5;
+   padding: 8px; 
+   display: inline-flex;
+   width: 200px;        
+}
+.foot-back > :first-child{
+   font-size: em !important;
+}
+.foot-app{
+   flex: .5;
+   display: flex;
+   flex-direction: row;
+   text-align: right;
+   padding-right: 8px;
+}
+.app-logo{
+   height: 40px;
+   margin-top: -4px;  
+   
+}      
+.sp-name{
+   font-size: 1.6em;
+   margin-left: 5px;         
+   text-align: right;
+   flex: 1;
+   color: var(--sp-dark);
+   font-weight: 500;
+}

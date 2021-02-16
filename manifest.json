@@ -1,0 +1,16 @@
+{
+	"short_name": "Hunger Games",
+	"name": "Hunger Games",
+	"start_url": "/debby",
+	"icons": [
+		{
+			"src": "favicon.png",
+			"type": "image/png",
+			"purpose": "maskable"
+		}
+	],
+	"display": "standalone",
+	"orientation": "portrait",
+	"theme_color": "orange",
+	"background_color": "#1c1c1c"
+}

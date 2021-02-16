@@ -1,0 +1,122 @@
+.dashboard{
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	background: rgba(255,255,255,.8);
+	overflow: hidden;
+}
+.dash-foot{
+	height: 60px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	overflow: hidden;
+	text-align: right;		
+	background: linear-gradient(to top,#17394B,#17394B 100%);
+	box-shadow: 0px 0px 5px #000;
+	display: inline-block;
+}
+.modal-overlay{
+	visibility: hidden;
+}
+.dash-tool{
+	height: 100%;
+	width: auto;
+	min-width: 80px;
+	font-weight: bolder;
+	color: #fafafa;		
+	background: #000 !important;
+	margin: 0px !important;
+	border:none;	
+	font-size: 1em;	
+}
+.dash-tool.active,.dash-tool.active >i{
+	color: #79D20C;		
+}
+.dash-tool:hover{
+	color: #79D20C;
+}
+.dash-tool:active{
+	background:#17394B !important; 
+}
+.dash-tool > *{
+	font-weight: bolder;
+}
+.dash-tool > i{
+	color: lightgrey;
+}
+.dash-more{
+	height: 30px;
+	background: transparent !important;
+	margin-right: 10px;
+	overflow: hidden;
+	color: #fff;
+	border:none;
+	width: auto;
+	margin-bottom: 30px;
+	padding: 0px !important;
+}
+.dashboard-body{
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	overflow-y: hidden;
+}
+.dash-head{
+	height: 30px;
+	text-align: center;
+	font-weight: 600;
+	color: grey;
+}
+.dash-config{
+	width: 300px;
+	height: 200px;
+	background: #fff;
+	position: fixed;
+	bottom: 0;
+	margin-bottom: 60px;
+	right: 0;
+	display: none;
+	margin-right: 50px;
+	overflow: hidden;
+	animation:slide_up .25s ease-out;
+}
+.dash-config > *{
+	animation:slide_up .5s ease-out;
+}
+.config-head{
+	height: 30px;
+	text-align: center;
+	background: grey;
+	color: #fff;
+	font-weight: 600;		
+}
+.config-body{
+	height: calc(100% - 30px);
+	width: 100%;
+	overflow-y: auto;
+}
+.config-sel{
+	width: 90%;
+	height: 34px;
+	border:2px solid grey;
+	margin-top: 5px;
+	cursor: pointer;
+	border-radius: 8px;
+	margin-left: 5%;
+}
+.config-save{
+	width: 60px;
+	margin-right: 4px;
+	height: 30px;
+	border-radius: 5px;
+	margin-top: 5px;
+	border:none;
+	border-radius:8px;
+	font-weight: 600;
+}
+.config-desc{
+	font-weight: 600;
+	padding: 3px;
+	text-align: left;		
+}

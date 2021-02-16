@@ -1,0 +1,22 @@
+User-agent: *
+Sitemap: https://spendtrack.app/sitemap.xml
+Disallow: /bootstrap/
+Disallow: /dependancies/
+Disallow: /system/
+
+allow: /
+allow: /view/
+
+
+User-agent: Mediapartners-Google
+allow: /
+allow: /view
+
+User-agent: Yahoo Pipes 1.0
+allow: /
+allow: /view
+
+User-agent: 008
+Disallow: /
+User-agent: voltron
+Disallow: /

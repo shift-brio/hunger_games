@@ -1,0 +1,90 @@
+.email-box{
+   --sp-dark: #1A4E69;
+   --sp-light: #02B18E;  
+   --sp-green: #79D20C;       
+   --snowy: #fafafa;
+   --black: #0d1317;
+   --light-tint: rgba(0,0,0,0.25);
+   --dark-tint: rgba(0,0,0,.75);
+   --in-focus: #039be5;  
+   --back-url: ;       
+}
+.email-box{
+   background: url("https://www.spendtrack.app/media/system/background.png");
+   width: 500px;     
+   padding-top: 8px;      
+   margin: 0px !important;
+}
+.email-head{      
+   font-weight: 600;      
+   padding: 12px;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-flow: row nowrap;         
+}
+.app-name{
+   font-size: 1.5em;
+   color: #1A4E69;
+   flex: 1;      
+   font-family: lato, sans-serif;
+}
+.a-logo{
+   flex: .5;
+   height: 50px;
+}
+.email-content{   
+   margin-top: 10px;
+   width: 100%;
+   height: auto;
+}
+.email-content > .email-content-item{
+   width: calc(100% - 16px);
+   margin-left: 8px;
+   border-radius: 1px;
+}
+.email-content-item{      
+   background: #fff;
+}
+.content-head{
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   flex-flow: column nowrap;  
+   padding: 10px;
+   font-family: inter, sans-serif;
+   border-bottom: 1px solid rgba(0,0,0,0.25);
+}
+.content-body{
+   margin-top: 20px;
+   padding: 12px;
+   font-weight: 400;
+   font-family: lato, sans-serif;
+}
+.email-footer{
+   background: #1A4E69;
+   width: 100%;
+   height: 50px;
+   margin-top: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: lato, sans-serif;
+}
+.footer-copy{
+   flex: .5;
+   color: #fff;
+   font-weight: 500;
+   padding-left: 10px;      
+}
+.footer-contact{
+   flex: 1;
+   text-align: right;
+   padding-right: 10px;
+   color: #79D20C;
+   font-weight: 600;
+}
+.footer-contact > span{
+   color: #fff;
+}
